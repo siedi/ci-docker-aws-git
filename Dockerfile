@@ -1,4 +1,4 @@
-FROM docker:1.12
+FROM docker:latest
 
 RUN apk add --no-cache --update \
     git \
